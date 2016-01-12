@@ -11,7 +11,7 @@ var main = function() {
    }, 200);
   });
  }
- If (toggle) {
+ if (!toggle) {
   toggle = false;
   $('#sidetoggle').click(function() {
    $('#sidebar').animate({
