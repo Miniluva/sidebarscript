@@ -10,7 +10,8 @@ var main = function() {
      marginLeft: "285px"
    }, 200);
   });
- } else {
+ }
+ If (toggle) {
   toggle = false;
   $('#sidetoggle').click(function() {
    $('#sidebar').animate({
